@@ -5,3 +5,7 @@ data "external" "program" {
 output "path" {
   value = data.external.program.result.path
 }
+
+output "usrbin" {
+  value = data.external.program.result.usrbin
+}
