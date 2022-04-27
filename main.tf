@@ -3,5 +3,5 @@ data "external" "program" {
 }
 
 output "path" {
-  value = data.external.program.path
+  value = data.external.program.result.path
 }
